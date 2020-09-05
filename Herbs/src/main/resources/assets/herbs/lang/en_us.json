@@ -1,3 +1,7 @@
 {
-  "item.herbs.ruby": "Ruby"
+  "item.herbs.ruby": "Ruby",
+  "item.herbs.oosfur": "Oos Fur",
+  "itemGroup.HerbsModTab": "Herbs Mod",
+  "block.herbs.ruby_block": "Ruby Block",
+  "block.herbs.oos_block": "Oos Block"
 }
