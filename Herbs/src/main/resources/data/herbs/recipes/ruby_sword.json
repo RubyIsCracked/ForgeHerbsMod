@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "#",
+        "#",
+        "I"
+    ],
+	"key":
+	{
+		"#": { "item": "herbs:ruby" },
+		"I": { "item": "minecraft:stick" }
+	},
+
+	"result": { "item": "herbs:ruby_sword" }
+}
