@@ -3,5 +3,9 @@
   "item.herbs.oosfur": "Oos Fur",
   "itemGroup.HerbsModTab": "Herbs Mod",
   "block.herbs.ruby_block": "Ruby Block",
-  "block.herbs.oos_block": "Oos Block"
+  "block.herbs.oos_block": "Oos Block",
+  "item.herbs.oos": "Oos",
+  "item.herbs.ruby_sword": "Ruby Sword",
+  "item.herbs.oos_sword": "Oos Sword",
+  "item.herbs.quartz_sword": "Quartz Sword"
 }

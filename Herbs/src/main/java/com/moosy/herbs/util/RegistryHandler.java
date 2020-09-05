@@ -5,8 +5,10 @@ import com.moosy.herbs.blocks.BlockItemBase;
 import com.moosy.herbs.blocks.OosBlock;
 import com.moosy.herbs.blocks.RubyBlock;
 import com.moosy.herbs.items.ItemBase;
+import com.moosy.herbs.tools.ModItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -28,6 +30,17 @@ public class RegistryHandler {
     // Items ONLY
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
     public static final RegistryObject<Item> OOS_FUR = ITEMS.register("oosfur", ItemBase::new);
+    public static final RegistryObject<Item> OOS = ITEMS.register("oos", ItemBase::new);
+
+    //Tools ONLY (Also 2+6=9 because of every item base damage of 1) (0.0f attack speed = 1.8 combat) The end looks like (Herbs.TAB))); do (Herbs.TAB).)); but with the added dot for funky modifications
+    public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () ->
+           new SwordItem(ModItemTier.RUBY, 9, 0.0f, new Item.Properties().group(Herbs.TAB)));
+
+    public static final RegistryObject<SwordItem> OOS_SWORD = ITEMS.register("oos_sword", () ->
+            new SwordItem(ModItemTier.OOS, 10, 0.0f, new Item.Properties().group(Herbs.TAB)));
+
+    public static final RegistryObject<SwordItem> QUARTZ_SWORD = ITEMS.register("quartz_sword", () ->
+            new SwordItem(ModItemTier.QUARTZ, 6, -2.4f, new Item.Properties().group(Herbs.TAB)));
 
     //Blocks ONLY
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);

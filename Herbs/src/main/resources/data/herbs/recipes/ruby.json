@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "herbs:ruby_block"
+    }
+  ],
+  "result":
+  {
+    "item": "herbs:ruby",
+    "count": 9
+  }
+}
