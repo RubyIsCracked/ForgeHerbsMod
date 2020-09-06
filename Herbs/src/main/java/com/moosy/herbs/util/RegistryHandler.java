@@ -7,8 +7,7 @@ import com.moosy.herbs.blocks.RubyBlock;
 import com.moosy.herbs.items.ItemBase;
 import com.moosy.herbs.tools.ModItemTier;
 import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -41,6 +40,16 @@ public class RegistryHandler {
 
     public static final RegistryObject<SwordItem> QUARTZ_SWORD = ITEMS.register("quartz_sword", () ->
             new SwordItem(ModItemTier.QUARTZ, 6, -2.4f, new Item.Properties().group(Herbs.TAB)));
+
+    public static final RegistryObject<PickaxeItem> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () ->
+            new PickaxeItem(ModItemTier.RUBY, 0, -2.8f, new Item.Properties().group(Herbs.TAB)));
+
+    public static final RegistryObject<AxeItem> RUBY_AXE = ITEMS.register("ruby_axe", () ->
+            new AxeItem(ModItemTier.RUBY, 10, -1.4f, new Item.Properties().group(Herbs.TAB)));
+
+    public static final RegistryObject<ShovelItem> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () ->
+            new ShovelItem(ModItemTier.RUBY, -1, -1.4f, new Item.Properties().group(Herbs.TAB)));
+
 
     //Blocks ONLY
     public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
