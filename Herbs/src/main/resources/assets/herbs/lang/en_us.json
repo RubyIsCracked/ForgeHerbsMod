@@ -10,5 +10,9 @@
   "item.herbs.quartz_sword": "Quartz Sword",
   "item.herbs.ruby_pickaxe": "Ruby Pickaxe",
   "item.herbs.ruby_axe": "Ruby Axe",
-  "item.herbs.ruby_shovel": "Ruby Shovel"
+  "item.herbs.ruby_shovel": "Ruby Shovel",
+  "item.herbs.ruby_helmet": "Ruby Helmet",
+  "item.herbs.ruby_chestplate": "Ruby Chestplate",
+  "item.herbs.ruby_leggings": "Ruby Leggings",
+  "item.herbs.ruby_boots": "Ruby Boots"
 }
